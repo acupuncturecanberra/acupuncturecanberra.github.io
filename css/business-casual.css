@@ -23,6 +23,10 @@ h6,
     font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+footer a { color: inherit; text-decoration: underline;}
+footer a:hover { color: #ffc04d;}
+
+
 h1 {
     font-size: 4rem;
 }
@@ -66,7 +70,8 @@ list-style-image: url('../img/taiji.png');
 }
 
 .bg-overlay {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(110,104,104,0.9);
+    color: white;
 }
 
 hr.divider {
@@ -80,4 +85,8 @@ hr.divider {
 
 .map-container iframe.clicked {
     pointer-events: auto;
+}
+.copyright{
+  color: #d8d7d7;
+  size: 10px;
 }
